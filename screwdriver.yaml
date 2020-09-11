@@ -6,7 +6,7 @@ jobs:
     requires: [ ~pr, ~commit ]
     image: node:12
     steps:
-      - echo: ls
+      - ls: ls
   second:
     requires: first
     image: node:12
