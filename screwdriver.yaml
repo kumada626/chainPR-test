@@ -6,9 +6,9 @@ jobs:
     requires: [ ~pr, ~commit ]
     image: node:12
     steps:
-      - echo: echo foo
+      - ls: ls
   second:
     requires: first
     image: node:12
     steps:
-      - echo: echo second job
+      - ls: ls
