@@ -11,4 +11,4 @@ jobs:
     requires: first
     image: node:12
     steps:
-      - echo: ls
+      - ls: ls
